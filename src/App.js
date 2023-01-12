@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Timer from './Timer'
-import Register from './Register'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -81,7 +80,6 @@ export default function App() {
 	}
 	return (
 		<>
-		{/* <Register/> */}
 		<div className='app'>
 			
 			{showScore ? (
